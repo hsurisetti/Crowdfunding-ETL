@@ -10,12 +10,20 @@ Independent Funding wants us to work on the new Data set that contains informati
 
 ### Extract Data : 
   With the knowledge of Python, Panda and ETL process, we are able to extract the raw backers data and create a new DataFrame for it.
+  
+I am using Option 1, using Python Dictionary Methods to extract the data from backers_data.csv
+![img](https://github.com/hsurisetti/Crowdfunding-ETL/blob/main/ResultsandScreenshots/ExtractData_using_PythonDict.png)
+
 
 ### Transform and Clean Data :
  In additon to the knowledge of Python, Pandas , we are adding data cleaning strategies and transforming the data via formatting, splitting and converting the data types and restructuring to create a new DataFrame that can be loaded into PostgreSQl database as a csv file
  
+ #### Cleaned and Transformed backers data :
+ ![img](https://github.com/hsurisetti/Crowdfunding-ETL/blob/main/ResultsandScreenshots/Transformed_backers_data.png)
+ 
 ### ERD :
-A new table for Backers is created and added along with other tables
+A new table for Backers is created and added along with other tables and below is the ERD created for them
+![img](https://github.com/hsurisetti/Crowdfunding-ETL/blob/main/ResultsandScreenshots/CrowdFunding_db_schema.png)
 
 ### SQL Analysis Results:
 - Retrieve all the number of backer_counts in descending order for each `cf_id` for the "live" campaigns. 
